@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #0f0f1b; /* 深藍黑色背景 */
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+#ui {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  pointer-events: none; /* 讓滑鼠點擊穿透 UI */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+canvas {
+  display: block;
+}
